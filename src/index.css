@@ -7,7 +7,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html{
+  height: 100%;
+  width: auto;
+}
+
+html body{
+  background-image: url('https://stmed.net/sites/default/files/lake-powell-wallpapers-27923-564999.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat-y;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.homeForm{
+  margin-top: 20%;
+  padding: 10%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+}
+
+.modal {
+  background-image: url('https://stmed.net/sites/default/files/lake-powell-wallpapers-27923-7071856.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
